@@ -1,3 +1,8 @@
+
+"""Build C extension module
+
+run `python setup.py build` 
+"""
 from distutils.core import setup, Extension
 
 module = Extension("myModule", sources=["myModule.c"])
