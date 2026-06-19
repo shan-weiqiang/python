@@ -1,0 +1,9 @@
+from setuptools import Extension, setup
+
+setup(
+    name="spam",
+    version="1.0",
+    ext_modules=[
+        Extension("spam", sources=["spam.c"]),
+    ],
+)
